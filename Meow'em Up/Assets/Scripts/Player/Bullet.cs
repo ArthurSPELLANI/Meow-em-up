@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public float bulletSpeed;
 
-    float damage = 1f;
+    int damage = 1;
 
 
     void Awake()

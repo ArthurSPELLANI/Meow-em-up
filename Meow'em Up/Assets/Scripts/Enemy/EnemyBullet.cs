@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Game;
 
 public class EnemyBullet : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float bulletSpeed;
 
-    float damage = 1f;
+    int damage = 1;
 
 
     void Awake()
@@ -30,7 +31,7 @@ public class EnemyBullet : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponentInParent<PlayerManager>().TakeDamage(damage);
+            collision.gameObject.GetComponentInParent<PlayerManager>().TakeDamage(damage);            
             Destroy(this.gameObject);
         }
 

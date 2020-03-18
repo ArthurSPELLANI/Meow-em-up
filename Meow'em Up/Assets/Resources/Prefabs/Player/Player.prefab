@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5193149898955167490}
   m_Layer: 9
   m_Name: Movement
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 5193149898994792204}
   m_Layer: 9
   m_Name: Graphics
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 5193149899299844850}
   m_Layer: 9
   m_Name: Behaviour
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc02a8eb4ab0e54e8d80707b6de20ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 1
+  fireRate: 0.3
   ammo: {fileID: 7968925753567376651, guid: 1b7c86635e7515c4795805618b55d0d1, type: 3}
 --- !u!1 &5193149900428533935
 GameObject:
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 5193149900428533929}
   m_Layer: 9
   m_Name: Colliders
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 5321393003389079730}
   m_Layer: 9
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -296,5 +296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 514247cb108c2404ea933f05c29f5cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHP: 10
+  playerHP: 5
   lives: 5
+  globalPoints: 0

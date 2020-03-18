@@ -22,7 +22,7 @@ public class EnemyShootTest : MonoBehaviour
     {
         Instantiate(enemyBullet, this.transform);
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
 
         StartCoroutine(Shoot());
     }
