@@ -6,6 +6,7 @@ public class EnemyRabbit : MonoBehaviour
 {
     private Rigidbody2D EnemyRb;
     public int speed;
+    public int speedDash;
 
     public int damage = 2;
 
@@ -40,7 +41,7 @@ public class EnemyRabbit : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
 
-        EnemyRb.velocity = new Vector2(-(this.transform.position.x - player.transform.position.x) * speed, -(this.transform.position.y - player.transform.position.y) * speed);
+        EnemyRb.velocity = new Vector2(-(this.transform.position.x - player.transform.position.x), -(this.transform.position.y - player.transform.position.y)).normalized * speedDash;
 
         yield return new WaitForSeconds(10f);
 
