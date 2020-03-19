@@ -20,6 +20,9 @@ namespace Game
         public Text livesText;
         public Text hPText;
 
+        public int scoreToLive = 500;
+        bool canAddLife;
+
         public UIManager uIM;
 
         void Awake()
@@ -32,18 +35,21 @@ namespace Game
             player = FindObjectOfType<PlayerManager>();
             scoreText.text = "Score : " + score;
             uIM = FindObjectOfType<UIManager>();
+
+            hPText.text = "HP : " + 5;
         }
 
 
         void Update()
         {
-            
+            AddLife();
         }
 
         public void AddScore(int points)
         {
             score += points;
             scoreText.text = "Score : " + score;
+            canAddLife = true;
         }
 
         public void RemoveLife()
@@ -65,6 +71,17 @@ namespace Game
                 PlayerPrefs.Save();
                 uIM.NewHighScore();
                 score = 0;
+            }
+        }
+        int x = 1;
+        void AddLife()
+        {
+            if (canAddLife && (score >= (scoreToLive * x)))
+            {
+                playerHP += 1;
+                hPText.text = "HP : " + playerHP;
+                canAddLife = false;
+                x = x + 1;
             }
         }
     }
