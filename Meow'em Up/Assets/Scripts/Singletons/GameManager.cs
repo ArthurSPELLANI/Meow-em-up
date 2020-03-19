@@ -65,11 +65,28 @@ namespace Game
         }
         public void Death()
         {
-            if (score > PlayerPrefs.GetInt("HighScore"))
+            if (score > PlayerPrefs.GetInt("HighScore3"))
             {
-                PlayerPrefs.SetInt("HighScore", score);
+                if (score > PlayerPrefs.GetInt("HighScore2"))
+                {
+                    if (score > PlayerPrefs.GetInt("HighScore"))
+                    {
+                        PlayerPrefs.DeleteKey("HighScore");
+                        PlayerPrefs.SetInt("HighScore", score);
+                        PlayerPrefs.Save();
+                        uIM.NewHighScore();
+                        score = 0;
+                    }
+                    PlayerPrefs.DeleteKey("HighScore2");
+                    PlayerPrefs.SetInt("HighScore2", score);
+                    PlayerPrefs.Save();
+                    uIM.NewHighScore2();
+                    score = 0;
+                }
+                PlayerPrefs.DeleteKey("HighScore3");
+                PlayerPrefs.SetInt("HighScore3", score);
                 PlayerPrefs.Save();
-                uIM.NewHighScore();
+                uIM.NewHighScore3();
                 score = 0;
             }
         }
