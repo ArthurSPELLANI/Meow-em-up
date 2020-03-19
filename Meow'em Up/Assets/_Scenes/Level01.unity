@@ -503,13 +503,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (13)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -2884,13 +2884,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (9)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -3123,13 +3123,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (14)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -3826,13 +3826,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (7)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -3988,13 +3988,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (11)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -4471,7 +4471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862522111}
   m_Layer: 0
-  m_Name: Dog
+  m_Name: Hamster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4516,13 +4516,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (8)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -4605,6 +4605,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
+        type: 3}
+      propertyPath: mob
+      value: 
+      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+        type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4998,13 +5004,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (2)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -5241,13 +5247,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (3)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -6000,13 +6006,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (4)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -6482,13 +6488,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -7051,13 +7057,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (5)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -7217,6 +7223,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
+        type: 3}
+      propertyPath: mob
+      value: 
+      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+        type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7582,13 +7594,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (1)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -7753,13 +7765,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (12)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -8004,6 +8016,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
+        type: 3}
+      propertyPath: mob
+      value: 
+      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+        type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8158,13 +8176,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (10)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -8535,13 +8553,13 @@ PrefabInstance:
     - target: {fileID: 7598993229218922708, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_Name
-      value: EnemySpawnerDog (6)
+      value: EnemySpawnerHam
       objectReference: {fileID: 0}
     - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: mob
       value: 
-      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+      objectReference: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
         type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
@@ -8624,6 +8642,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
+        type: 3}
+      propertyPath: mob
+      value: 
+      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+        type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8786,6 +8810,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 7598993229218922709, guid: 766d9284d5a1ad04cbf315b017fd66d8,
+        type: 3}
+      propertyPath: mob
+      value: 
+      objectReference: {fileID: 3897291950190538370, guid: 6f40bf6c7bd233b4eb8fded3c141e6a7,
+        type: 3}
     - target: {fileID: 7598993229218922710, guid: 766d9284d5a1ad04cbf315b017fd66d8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9169,3 +9199,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1537402346206837640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167859, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 824696034162167863, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyHamster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219835525647693136, guid: ee3b78f48465f7d4c8243995b05656c0,
+        type: 3}
+      propertyPath: enemyBullet
+      value: 
+      objectReference: {fileID: 6955747243236412990, guid: 07bc1506965b24c49bd1a0c6c83cf233,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee3b78f48465f7d4c8243995b05656c0, type: 3}

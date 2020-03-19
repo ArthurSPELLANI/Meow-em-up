@@ -10,15 +10,17 @@ public class EnemyBullet : MonoBehaviour
 
     public int damage = 1;
 
+    GameObject player;
+
 
     void Awake()
     {
-
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Start()
     {
-        rb.velocity = new Vector2(-1, 0) * bulletSpeed;
+        rb.velocity = new Vector2(-(this.transform.position.x - player.transform.position.x), -(this.transform.position.y - player.transform.position.y)) * bulletSpeed;
     }
 
     void Update()
