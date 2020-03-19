@@ -9,17 +9,21 @@ public class EnemyRabbit : MonoBehaviour
 
     public int damage = 2;
 
+    GameObject player;
+
     // Start is called before the first frame update
     void Start()
     {
         EnemyRb = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(TimedDestroy());
+        EnemyRb.velocity = new Vector2(-1, 0) * speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        EnemyRb.velocity = new Vector2(-1,0) * speed;
+        
     }
 
 
@@ -34,6 +38,10 @@ public class EnemyRabbit : MonoBehaviour
 
     IEnumerator TimedDestroy()
     {
+        yield return new WaitForSeconds(2f);
+
+        EnemyRb.velocity = new Vector2(-(this.transform.position.x - player.transform.position.x) * speed, -(this.transform.position.y - player.transform.position.y) * speed);
+
         yield return new WaitForSeconds(10f);
 
         Destroy(gameObject);
