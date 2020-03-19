@@ -59,7 +59,7 @@ namespace Game
         }
         public void Death()
         {
-            if (score > highScore)
+            if (score > PlayerPrefs.GetInt("HighScore"))
             {
                 PlayerPrefs.SetInt("HighScore", score);
                 PlayerPrefs.Save();
