@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour
 
     //[HideInInspector]
     public float globalPoints;
+    public GameObject deathParticleEffect;
 
 
 
@@ -28,6 +29,7 @@ public class PlayerManager : MonoBehaviour
             GameManager.Instance.uIM.GameOver();
             GameManager.Instance.Death();
             Destroy(this.gameObject);
+            Instantiate(deathParticleEffect, transform.position, Quaternion.identity);
 
         }
     } 

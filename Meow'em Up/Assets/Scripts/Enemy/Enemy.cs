@@ -23,8 +23,8 @@ public class Enemy : MonoBehaviour
         if(healthPoint <= 0)
         {
             player.GetComponent<PlayerManager>().GainPoints(points);
-            Destroy(this.gameObject);
             Instantiate(particuleSystemDeath, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
         }
     }
 

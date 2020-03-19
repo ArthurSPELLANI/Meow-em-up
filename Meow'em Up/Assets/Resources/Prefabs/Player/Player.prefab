@@ -299,3 +299,5 @@ MonoBehaviour:
   playerHP: 5
   lives: 5
   globalPoints: 0
+  deathParticleEffect: {fileID: 8043391789462882362, guid: 3473acf076954fd409b7dda704f486fe,
+    type: 3}
