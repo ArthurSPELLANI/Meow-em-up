@@ -48,6 +48,12 @@ PrefabInstance:
       propertyPath: points
       value: 130
       objectReference: {fileID: 0}
+    - target: {fileID: 2587104724537335697, guid: bfd053e7f58ab5543b66a8fa5ed11e1b,
+        type: 3}
+      propertyPath: particuleSystemDeath
+      value: 
+      objectReference: {fileID: 9055837561509863027, guid: 77343ecc4b6557a479420e5b8493654e,
+        type: 3}
     - target: {fileID: 2587104724537335698, guid: bfd053e7f58ab5543b66a8fa5ed11e1b,
         type: 3}
       propertyPath: m_LocalPosition.x
