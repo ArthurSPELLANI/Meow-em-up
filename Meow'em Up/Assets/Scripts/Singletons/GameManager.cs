@@ -15,6 +15,7 @@ namespace Game
         public int score;
         public int lives;
         public int playerHP;
+        public int highScore;
         public Text scoreText;
         public Text livesText;
         public Text hPText;
@@ -56,6 +57,15 @@ namespace Game
             playerHP -= 1;
             hPText.text = "HP : " + playerHP;
         }
-
+        public void Death()
+        {
+            if (score > highScore)
+            {
+                PlayerPrefs.SetInt("HighScore", score);
+                PlayerPrefs.Save();
+                uIM.NewHighScore();
+                score = 0;
+            }
+        }
     }
 }

@@ -26,7 +26,9 @@ public class PlayerManager : MonoBehaviour
         if (playerHP <= 0)
         {            
             GameManager.Instance.uIM.GameOver();
+            GameManager.Instance.Death();
             Destroy(this.gameObject);
+
         }
     } 
 
