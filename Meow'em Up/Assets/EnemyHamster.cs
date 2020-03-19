@@ -43,4 +43,12 @@ public class EnemyHamster : MonoBehaviour
 
         StartCoroutine(Shoot());
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Finish")
+        {
+            location = true;
+        }
+    }
 }
