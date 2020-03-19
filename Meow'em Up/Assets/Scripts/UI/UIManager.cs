@@ -32,6 +32,7 @@ public class UIManager : MonoBehaviour
     public void GameOver()
     {
         GameOverPanel.SetActive(true);
+        Time.timeScale = 0.2f;
     }
 
     void GoPause()

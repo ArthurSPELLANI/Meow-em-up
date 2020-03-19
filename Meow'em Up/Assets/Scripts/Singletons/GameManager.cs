@@ -19,6 +19,8 @@ namespace Game
         public Text livesText;
         public Text hPText;
 
+        public UIManager uIM;
+
         void Awake()
         {
             MakeSingleton(true);
@@ -28,6 +30,7 @@ namespace Game
         {
             player = FindObjectOfType<PlayerManager>();
             scoreText.text = "Score : " + score;
+            uIM = FindObjectOfType<UIManager>();
         }
 
 

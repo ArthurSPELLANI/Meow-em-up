@@ -9,6 +9,8 @@ public class Bullet : MonoBehaviour
 
     int damage = 1;
 
+    public Animator animator;
+
 
     void Awake()
     {
@@ -31,11 +33,21 @@ public class Bullet : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(damage);
-            Destroy(this.gameObject);
+            StartCoroutine(Death());
         }
 
         if (collision.gameObject.tag == "Boundaries")
         {
+            Destroy(this.gameObject);
+        }
+
+        IEnumerator Death()
+        {
+            rb.velocity = new Vector2(0, 0);
+            animator.SetBool("isDed", true);
+
+            yield return new WaitForSeconds(1.2f);
+
             Destroy(this.gameObject);
         }
     }

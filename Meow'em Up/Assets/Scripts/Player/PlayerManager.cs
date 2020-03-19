@@ -24,7 +24,8 @@ public class PlayerManager : MonoBehaviour
     void Update()
     {
         if (playerHP <= 0)
-        {
+        {            
+            GameManager.Instance.uIM.GameOver();
             Destroy(this.gameObject);
         }
     } 
@@ -40,5 +41,6 @@ public class PlayerManager : MonoBehaviour
         globalPoints += points;
         GameManager.Instance.AddScore(points);
     }
+
 }
 
