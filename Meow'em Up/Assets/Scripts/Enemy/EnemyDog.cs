@@ -10,6 +10,7 @@ public class EnemyDog : MonoBehaviour
     Vector3 dogMovement;
     public float speed;
     Quaternion rotation = Quaternion.identity;
+    bool location = false;
 
     public AnimationCurve moveCurve;
 
@@ -22,7 +23,16 @@ public class EnemyDog : MonoBehaviour
 
     void Update()
     {
-        rb.velocity = new Vector2(-0.5f, Mathf.Sin(Time.timeSinceLevelLoad * 2) * speed);
+
+        if (location == false)
+        {
+            rb.velocity = new Vector2(-0.5f, Mathf.Sin(Time.timeSinceLevelLoad * 2) * speed);
+        }
+        else if (location == true)
+        {
+            rb.velocity = new Vector2(0, Mathf.Sin(Time.timeSinceLevelLoad * 2) * speed);
+        }
+
     }
 
     IEnumerator Shoot()
@@ -33,4 +43,14 @@ public class EnemyDog : MonoBehaviour
 
         StartCoroutine(Shoot());
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Finish")
+        {
+            location = true;
+        }
+    }
+
+
 }
