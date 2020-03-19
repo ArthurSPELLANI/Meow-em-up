@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public float healthPoint;
     GameObject player;
+    public GameObject particuleSystemDeath;
 
     public int points;
 
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
         {
             player.GetComponent<PlayerManager>().GainPoints(points);
             Destroy(this.gameObject);
+            Instantiate(particuleSystemDeath, transform.position, Quaternion.identity);
         }
     }
 
