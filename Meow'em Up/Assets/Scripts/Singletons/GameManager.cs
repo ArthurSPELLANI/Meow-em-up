@@ -20,7 +20,7 @@ namespace Game
         public Text livesText;
         public Text hPText;
 
-        public int scoreToLive;
+        public int scoreToLive = 500;
         bool canAddLife;
 
         public UIManager uIM;
@@ -36,7 +36,7 @@ namespace Game
             scoreText.text = "Score : " + score;
             uIM = FindObjectOfType<UIManager>();
 
-            hPText.text = "HP : " + playerHP;
+            hPText.text = "HP : " + 5;
         }
 
 
@@ -81,6 +81,7 @@ namespace Game
                 playerHP += 1;
                 hPText.text = "HP : " + playerHP;
                 canAddLife = false;
+                x = x + 1;
             }
         }
     }
