@@ -24,6 +24,7 @@ public class UIManager : MonoBehaviour
     public GameObject PausePanel;
     public GameObject WannaLeavePanel;
     public GameObject HighScorePanel;
+    public GameObject CongratsPanel;
 
     void Awake()
     {
@@ -140,5 +141,12 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.Save();
             HighScorePanel.SetActive(false);
         }
+    }
+
+    public void Congratulation()
+    {
+        isPaused = true;
+        CongratsPanel.SetActive(true);
+        Time.timeScale = 0;
     }
 }

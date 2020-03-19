@@ -36,7 +36,7 @@ namespace Game
             scoreText.text = "Score : " + score;
             uIM = FindObjectOfType<UIManager>();
 
-            hPText.text = "HP : " + 5;
+            hPText.text = "HP : " + 10;
         }
 
 

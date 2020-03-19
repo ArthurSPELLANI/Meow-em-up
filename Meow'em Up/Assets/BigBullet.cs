@@ -49,7 +49,7 @@ public class BigBullet : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
-        rb.velocity = new Vector2(-(this.transform.position.x - player.transform.position.x), -(this.transform.position.y - player.transform.position.y)) * bulletSpeed;
+        rb.velocity = new Vector2(-(this.transform.position.x - player.transform.position.x), -(this.transform.position.y - player.transform.position.y)).normalized * bulletSpeed;
 
     }
 }

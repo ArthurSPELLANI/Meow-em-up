@@ -10,17 +10,24 @@ public class EnemyBoss : MonoBehaviour
     public GameObject[] bullets;
     Quaternion rotation = Quaternion.identity;
     public Enemy enemyScript;
+    float lifePoint;
+    GameObject UIManager;
+    UIManager uim;
 
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(Shoot());
+        UIManager = GameObject.FindGameObjectWithTag("Respawn");
+        uim = UIManager.GetComponent<UIManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        lifePoint = enemyScript.healthPoint;
+
         if (location == false)
         {
             rb.velocity = new Vector2(-1f, 0);
@@ -30,6 +37,11 @@ public class EnemyBoss : MonoBehaviour
             rb.velocity = new Vector2(0, 0);
         }
 
+        if(lifePoint <= 1)
+        {
+            Congratulation();
+            enemyScript.healthPoint = 0;
+        }
 
     }
 
@@ -60,6 +72,9 @@ public class EnemyBoss : MonoBehaviour
         StartCoroutine(Shoot());
     }
 
-    
+    void Congratulation()
+    {
+        uim.Congratulation();
+    }
 
 }
