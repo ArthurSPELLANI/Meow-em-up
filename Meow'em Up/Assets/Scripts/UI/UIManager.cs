@@ -74,7 +74,7 @@ public class UIManager : MonoBehaviour
 
     public void GameOver()
     {
-        TNUL.text = "HIGHSCORE = "+ PlayerPrefs.GetString("HSName") + ":" + PlayerPrefs.GetInt("HighScore").ToString();
+
         GameOverPanel.SetActive(true);
         Time.timeScale = 0.2f;
         gameOver = true;
@@ -125,21 +125,57 @@ public class UIManager : MonoBehaviour
         GameOverPanel.SetActive(false);
         gameOver = false;
     }
+    int lol = 0;
     public void NewHighScore()
     {
         HighScorePanel.SetActive(true);
         highScore = PlayerPrefs.GetInt("HighScore");
         HighScoreText.text = highScore.ToString();
+        lol = 1;
+    }
+    public void NewHighScore2()
+    {
+        HighScorePanel.SetActive(true);
+        highScore = PlayerPrefs.GetInt("HighScore2");
+        HighScoreText.text = highScore.ToString();
+        lol = 2;
+    }
+    public void NewHighScore3()
+    {
+        HighScorePanel.SetActive(true);
+        highScore = PlayerPrefs.GetInt("HighScore3");
+        HighScoreText.text = highScore.ToString();
+        lol = 3;
     }
 
     public void SetHighScoreName()
     {
         if (nameOk)
         {
-            highScoreName = hSN.text;
-            PlayerPrefs.SetString("HSName", highScoreName);
-            PlayerPrefs.Save();
-            HighScorePanel.SetActive(false);
+            if(lol == 1)
+            {
+                highScoreName = hSN.text;
+                PlayerPrefs.DeleteKey("HSName");
+                PlayerPrefs.SetString("HSName", highScoreName);
+                PlayerPrefs.Save();
+                HighScorePanel.SetActive(false);
+            }
+            if (lol == 2)
+            {
+                highScoreName = hSN.text;
+                PlayerPrefs.DeleteKey("HSName2");
+                PlayerPrefs.SetString("HSName2", highScoreName);
+                PlayerPrefs.Save();
+                HighScorePanel.SetActive(false);
+            }
+            if (lol == 3)
+            {
+                highScoreName = hSN.text;
+                PlayerPrefs.DeleteKey("HSName3");
+                PlayerPrefs.SetString("HSName3", highScoreName);
+                PlayerPrefs.Save();
+                HighScorePanel.SetActive(false);
+            }
         }
     }
 
@@ -150,3 +186,4 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 0;
     }
 }
+
