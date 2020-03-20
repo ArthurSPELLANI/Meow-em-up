@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);        
         
     }
 
@@ -68,7 +68,10 @@ public class UIManager : MonoBehaviour
             nameOk = true;
         }
 
-        
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
             
     }
 
